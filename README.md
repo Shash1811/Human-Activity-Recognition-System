@@ -2,12 +2,12 @@
 
 This project implements multiple machine learning algorithms to recognize human activities using sensor data. It is based on the IEEE research paper:
 
-📄 **“Implementation of Machine Learning Algorithms for Human Activity Recognition”**  
-📚 *Presented at the 3rd International Conference on Signal Processing and Communication (ICPSC), IEEE 2021*
+ **“Implementation of Machine Learning Algorithms for Human Activity Recognition”**  
+ *Presented at the 3rd International Conference on Signal Processing and Communication (ICPSC), IEEE 2021*
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **Source**: [UCI HAR Dataset](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
 - **Sensors**: Accelerometer and gyroscope from smartphones
@@ -25,11 +25,11 @@ This project implements multiple machine learning algorithms to recognize human 
 
 ---
 
-## 🧠 ML Algorithms Used
+##  ML Algorithms Used
 
 The following classifiers were implemented and evaluated:
 
-- ✅ **Random Forest** *(Best Accuracy ~92%)*
+-  **Random Forest** *(Best Accuracy ~92%)*
 - K-Nearest Neighbors (KNN)
 - Decision Tree
 - Gradient Boosting
@@ -39,7 +39,7 @@ The following classifiers were implemented and evaluated:
 
 ---
 
-## 🧪 Feature Extraction
+## Feature Extraction
 
 Time-domain features were extracted using **overlapping windowing**:
 - Window size: **250 ms**
@@ -53,7 +53,7 @@ Time-domain features were extracted using **overlapping windowing**:
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Accuracy**
 - **Precision**
@@ -64,7 +64,7 @@ Evaluation was done using **5-fold Stratified Cross-Validation**.
 
 ---
 
-## 🚀 Results (Sample)
+##  Results (Sample)
 
 | Classifier           | Accuracy (%) |
 |----------------------|--------------|
@@ -80,7 +80,7 @@ Evaluation was done using **5-fold Stratified Cross-Validation**.
 ---
 
 
-Heres the output in the webapp:
+Here's the output in the webapp:
 
 <img width="1103" height="819" alt="Screenshot 2025-07-16 155858" src="https://github.com/user-attachments/assets/864ed173-16d6-475a-a0fa-994958ff7f63" />
 
